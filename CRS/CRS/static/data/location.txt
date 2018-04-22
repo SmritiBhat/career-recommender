@@ -1,0 +1,14 @@
+Saudi Arabia 11
+India 4
+United Arab Emirates 12
+Others 9
+United Kingdom 13
+Indonesia 5
+Canada 1
+Philippines 10
+Malaysia 6
+Australia 0
+Netherlands 7
+Nigeria 8
+Egypt 2
+Ghana 3

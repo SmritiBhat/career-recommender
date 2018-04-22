@@ -1,0 +1,67 @@
+body {
+    background-image: url("../images/career_girl.jpg");
+    background-size: cover;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.row {
+    height: 33.33%;
+    width: 100%;
+}
+.content {
+    color: black;
+    background-color: rgba(0, 90, 167, 0.8);
+
+}
+.tagline {
+    font-family: 'Limelight', cursive;
+    font-size: 60px;
+
+}
+.quote {
+    font-family: 'Amita', cursive;
+    font-size: 40px;
+}
+.button {
+    background-color: rgb(0, 90, 167);
+    border: none;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 {
+    border-radius: 2px;
+}
+
+.button2 {
+    border-radius: 4px;
+}
+
+.button3 {
+    border-radius: 8px;
+}
+
+.button4 {
+    border-radius: 12px;
+}
+
+.button5 {
+    border-radius: 50%;
+}
+
+.button:hover {
+    color: black;
+    background-color: white;
+}

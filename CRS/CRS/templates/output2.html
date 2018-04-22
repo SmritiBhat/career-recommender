@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <title>LoggedIn as ...</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="../static/form-staticimages/icons/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../static/form-static/vendor/bootstrap/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="../static/form-static/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../static/form-static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/form-static/vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="../static/form-static/vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/form-static/vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/form-static/css/util.css">
+</head>
+<body>
+    <div class="contact1">
+        <div class="container-contact1">
+            <div>
+
+                <!-- Display result here - prediction and tip -->
+                <h4>Logged In as ... {{user_name}}</h4>
+                <br />
+                <h2>User Email : {{user_email}}</h2>
+                <br />
+                <h2>User Location : {{user_location}}</h2>
+                <br />
+                <h2>User Industry : {{user_industry}}</h2>
+                <br />
+                <h2>User Position : {{user_position}}</h2>
+                <br />
+                <h2>User skills : {{user_skills}}</h2>
+                <br />
+                <h2>Skills needed : {{user_needed}}</h2>
+                <br />
+                <h2>Accuracy : {{a1}}</h2>
+          
+
+                <!--<h5><strong style="color:blue">Algorithm :</strong> {{alg}}</h5>
+                <br>
+                <h3>Model 1 : Target Type Prediction</h3>
+                <br>
+                <h5><strong style="color:red">Region Predicted :</strong> {{r1}}</h5>
+                <h5><strong style="color:green">Accuracy :</strong> {{ac1}}%</h5>
+                <br>
+                <br>
+                <h3>Model 2 - Pipelined with Model 1 : Attack Type Prediction</h3>
+                <br>
+                <h5><strong style="color:red">Attack Type Predicted :</strong> : {{r2}}</h5>
+                <h5><strong style="color:green">Accuracy :</strong> {{ac2}}%</h5>-->
+            </div>
+        </div>
+            <center>
+                <a class="contact1-form-btn" href="/">Log Out</a>
+            </center>
+        </div>
+    
+    <script src="../static/form-static/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="../static/form-static/vendor/bootstrap/js/popper.js"></script>
+    <script src="../static/form-static/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../static/form-static/vendor/select2/select2.min.js"></script>
+    <script src="../static/form-static/vendor/tilt/tilt.jquery.min.js"></script>
+    <script>
+        $('.js-tilt').tilt({
+            scale: 1.1
+        })
+    </script>
+    <script src="../static/form-static/js/main.js"></script>
+</body>
+</html>

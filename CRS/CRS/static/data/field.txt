@@ -1,0 +1,14 @@
+Others 12
+Banking and Finance 0
+Mechanical and Industrial 11
+Civil and Construction 3
+Management and Administration 9
+Computer Science 4
+Hospital and Health Care 7
+Marketing 10
+Electronics and Electrical 6
+Law 8
+Chemical Engineering 2
+Design and Art 5
+Business 1
+Public Administration 13
